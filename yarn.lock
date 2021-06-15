@@ -1132,7 +1132,7 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@expo/config-plugins@1.0.33", "@expo/config-plugins@^1.0.18":
+"@expo/config-plugins@1.0.33", "@expo/config-plugins@^1.0.18", "@expo/config-plugins@^1.0.24":
   version "1.0.33"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-1.0.33.tgz#8ee78ea6f939f7e04606e9afa22b32139ea974a0"
   integrity sha512-YQJop0c69LKD/6ZJJto7klS7TDmzgs44TI0Z5RBqesOjYlDwNFcQk2Rl2BaA1wlAYkH+rRrhN2+WjjSyD9HiPg==
@@ -1804,6 +1804,13 @@
     strip-ansi "^5.2.0"
     sudo-prompt "^9.0.0"
     wcwidth "^1.0.1"
+
+"@stripe/stripe-react-native@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@stripe/stripe-react-native/-/stripe-react-native-0.1.1.tgz#8e585f2bb7f9580d825a87f47f2163b8be317175"
+  integrity sha512-rJKK7B3QcNkX1E0SRcpqP+aXKpa8CZrrjuVc46FTY4hZ+u5gHjpPmz5U+zgiwLt/LEAsJnibW9+2pFYI8xH0wQ==
+  dependencies:
+    "@expo/config-plugins" "^1.0.24"
 
 "@types/istanbul-lib-coverage@*", "@types/istanbul-lib-coverage@^2.0.0":
   version "2.0.3"

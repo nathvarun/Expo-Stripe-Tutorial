@@ -38,7 +38,7 @@ const StripeApp = props => {
         console.log("Unable to process payment");
       } else {
         const { paymentIntent, error } = await confirmPayment(clientSecret, {
-          type: "Card",
+          paymentMethodType: "Card",
           billingDetails: billingDetails,
         });
         if (error) {
